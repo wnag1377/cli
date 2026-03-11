@@ -1,23 +1,23 @@
-# Installing gh on Linux and BSD
+#带着一个通过
 
-## Recommended _(Official)_
+##GIF、JPEG、JPG、MOV、MP4、PNG、SVG、WEBM或WEBP拖拽，_(Official)_
 
-### Debian
+###此文件为空。选择或粘贴它们。
 
-Debian packages are hosted on the [GitHub CLI marketing site](https://cli.github.com/) for various operating systems including:
+附加工资[再试一次上传你的文件……](https://cli.github.com/)在cli中编辑install_linux.md
 
-- [Debian](https://www.debian.org/)
-- [Raspberry Pi](https://www.raspberrypi.com/)
-- [Ubuntu Linux](https://ubuntu.com/)
+- [突耳(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \](https://www.debian.org/)
+德比安（Debian） [移动到页面上的下一个交互元素。&& sudo mkdir -p -m 755 /etc/apt/keyrings \](https://www.raspberrypi.com/)
+附加文档需要对此存储库的写权限。###此文件为空。选择或粘贴它们。
 
-These packages are supported by the GitHub CLI maintainers with updates powered by [GitHub CLI deployment workflow](https://github.com/cli/cli/actions/workflows/deployment.yml).
+切换[突耳](https://github.com/cli/cli/actions/workflows/deployment.yml).
 
-To install:
+按键移动焦点。或者，使用
 
-```bash
-(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
-	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
-	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+```退出
+然后
+突耳使用
+移动到页面上的下一个交互元素。控制+换挡+m
 	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
 	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
 	&& sudo mkdir -p -m 755 /etc/apt/sources.list.d \
